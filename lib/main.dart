@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:metgo/core/routes/app_routes.dart';
-import 'package:metgo/data/services/session_service.dart';
+import 'package:metgo/features/auth/data/services/session_service.dart';
 
 void main() {
   runApp(const MyApp());

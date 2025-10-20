@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:metgo/presentation/widgets/custom_button.dart';
-import 'package:metgo/presentation/widgets/custom_text_field.dart';
-import 'package:metgo/presentation/controllers/login_controller.dart';
+import 'package:metgo/core/widgets/custom_button.dart';
+import 'package:metgo/core/widgets/custom_text_field.dart';
+import 'package:metgo/features/auth/presentation/controllers/login_controller.dart';
+
+
 import 'package:metgo/core/utils/validators.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -88,7 +90,7 @@ class _LoginScreenState extends State<LoginScreen> {
                             controller: _emailController,
                             label: 'Email',
                             icon: Icons.email,
-                            validator: Validators.email,
+                            //validator: Validators.email,
                           ),
                           const SizedBox(height: 20),
                           CustomTextField(

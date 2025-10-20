@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:metgo/data/services/auth_service.dart';
-import 'package:metgo/data/services/session_service.dart';
+import 'package:metgo/features/auth/data/services/auth_service.dart';
+import 'package:metgo/features/auth/data/services/session_service.dart';
 import 'package:metgo/core/routes/app_routes.dart';
 
 class LoginController {
